@@ -1,0 +1,282 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #c38d9e;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+/*.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 2rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}*/
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #c38d9e;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+.footer{
+    background-color: transparent;
+    position: fixed; 
+    color:#aca9a9;
+    text-shadow: 1px 1px rgb(36, 36, 34);
+    bottom:0;
+    width:100%;
+    height:80px; 
+  } 
+  .footer .social{
+    padding-bottom: 20px;
+    width: auto;
+    height: auto;
+  }
+  .footer .social a{
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    line-height: 24px;
+    margin: 0 10px;
+  }
+  .footer .social .a:hover{
+    opacity: 0;
+  }
+
+.form-container{
+    max-width: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 1px solid #c38d9e;
+    padding: 10px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    background-color: #e2bbc7;
+  }
+
+  table, tr, td, th {
+    padding: 10px;
+    border: 1px solid;
+    border-color:#000000;
+    color:#000000;
+    height:25px;
+    border-radius: 5px;
+  }
+  .displaytable{
+    width:100%;
+    padding-right: 20px;
+  }
+
+  .form-container1 label{
+    display:block;
+    margin: 5px;
+    box-shadow: 0 0 15px #000;
+    border-radius: 10px;
+    width: 400px;
+  }
+  .form-container1 label > b{
+    float: left;
+    width: 400px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(240, 208, 208);
+  }
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #edf5e1;
+    background-clip: border-box;
+    border: 1pxsolidrgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #edf5e1;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 7px 3px 7px rgba(0, 0, 0, 0.1);
+}
+.bg-light {
+    background-color: #edf5e1!important;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.btn-info {
+    color: #edf5e1;
+    background-color: #c38d9e;
+    border-color: #c38d9e;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #c38d9e;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #c38d9e;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #c38d9e;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #c38d9e;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #c38d9e;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #c38d9e;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #c38d9e;
+}
+
+a.article,
+a.article:hover {
+    background: #c38d9e !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    /*background-image: url(https://img.freepik.com/premium-photo/crumpled-white-paper-textured-background-wallpaper_53876-110213.jpg?w=740://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?w=740&t=st=1658377604~exp=1658378204~hmac=93c08ede214d489a65afd08148dc31c63911e08eae672e5d25d12c5a6c5859d0); 
+    background-repeat: no-repeat; background-size:cover;*/
+    background-color: #edf5e1;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
